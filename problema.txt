@@ -1,0 +1,13 @@
+Realice una simulación de una sucursal de una cadena de supermercados, utilizando la librería Simpy de Python o utilizando el método de eventos discretos.
+
+En una sucursal de una cadena de supermercados, llegan los clientes a un sistema con M cajas y con un proceso de Poisson a razón de 
+ λ(>0) clientes por hora en promedio. Al llegar un cliente, se forma en una fila en una caja (selecciona la caja que tenga menos personas o en caso que el menor número de personas haya más de una caja, selecciona cualquiera entre esas cajas).  Cada cajero despacha al cliente en un tiempo que tiene una distribución exponencial con parámetro 
+ λ1(>0) clientes por hora.
+
+Calcular: 
+
+1. El tiempo promedio de un cliente en la cola.
+
+2. Número de clientes en la cola en promedio.
+
+3. Grado o factor de utilización de cada cajero.
