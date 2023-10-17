@@ -48,12 +48,6 @@ if __name__ == "__main__":
     tiempo_promedio_espera /= clientes_atendidos  # Calcular el tiempo promedio de espera
     clientes_en_cola_promedio = tiempo_promedio_espera * (LAMBDA / 60)  # Calcular el número promedio de clientes en la cola
     
-    # Imprimir estadísticas de la simulación
-    #print("Cliente".ljust(13) + " | " + "Llegada".ljust(13) + " | " + "Espera".ljust(13) + " | " + "Salida".ljust(13))
-    #print("-" * 52)
-    #for registro in log:
-    #    print(registro)
-
     print(f"\nTiempo promedio de espera en la cola: {tiempo_promedio_espera:.2f} minutos")
     print(f"Número promedio de clientes en la cola: {clientes_en_cola_promedio:.2f}")
 
